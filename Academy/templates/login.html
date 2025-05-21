@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>SM Academy - Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"/>
+    <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+    {% if messages %}
+    {% for message in messages %}
+    <div class="alert {% if message.tags %} {{ message.tags }} {% endif %}">
+        {{ message }}
+    </div>
+    {% endfor %}
+    {% endif %}
+   <div id="login-container">
+    <div class="login-wrapper">
+        <div class="login-card">
+            <h2>SM Academy Login</h2>
+            <form method="post">
+                {% csrf_token %}
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="email"/>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="password" />
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+                <div class="forgot">
+                <a href="{% url 'password_reset' %}">Forgot password!</a>
+                </div>
+                <div class="register">
+                    <p>Don't have and account? <a href="/signup/">Signup</a></p>
+                </div>
+            </form>
+            
+        </div>
+    </div>  
+</div>
+</body>
+</html>

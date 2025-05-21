@@ -1,0 +1,1135 @@
+/* Mobile responsive menu */
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #8f94fb;
+        width: 200px;
+        height: 100vh;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+  
+    .menu-icon {
+        display: block;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+    }
+  
+    .nav-links ul {
+        flex-direction: column;
+    }
+  
+    .nav-links ul li {
+        margin: 20px 0;
+    }
+  
+    .nav-links ul li a {
+        font-size: 18px;
+    }
+  
+    .close-icon {
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+  }
+  
+  .page-header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #007bff00;
+    color: rgb(0, 0, 0);
+  }
+  
+  .admission-form {
+    padding: 40px 20px;
+  }
+  
+  .wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .r_form_wrap {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .title p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+  }
+  
+  .input_wrap {
+    margin-bottom: 20px;
+  }
+  
+  .input_wrap label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input_item input,
+  .input_item select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .radio-group label {
+    font-size: 16px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-row .input_wrap {
+    width: 48%;
+  }
+  
+  .button {
+    background-color: #5f7286;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .clear_ad {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .clear_ad:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .footer .copyright {
+    font-size: 14px;
+    margin-top: 20px;
+  } */
+  /* Responsive End  */
+
+  /* Contact Section Styling */
+.contact-section {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center; /* Centering the content */
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+ }
+ 
+ /* Contact Info Section Styling */
+ .contact-info {
+    width: 600px; /* Set the width to 600px */
+    background-color: #fff;
+    padding: 30px;
+    border: 2px solid #0072ff; /* Blue border for rectangular box */
+    border-radius: 8px; /* Slight rounding for box corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    height: auto;
+ }
+ 
+ /* Hover Effect for Contact Info */
+ .contact-info:hover {
+    transform: translateY(-10px) scale(1.05);
+ }
+ 
+ /* Heading for Contact Info */
+ .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+ }
+ 
+ /* Info Item Styling */
+ .info-item {
+    margin-bottom: 20px;
+ }
+ 
+ /* Info Item Header Styling */
+ .info-item h3 {
+    font-size: 18px;
+    color: #0072ff;
+    margin-bottom: 5px;
+ }
+ 
+ /* Info Item Paragraph Styling */
+ .info-item p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+ }
+ 
+ /* Contact Form Section Styling */
+ .contact-form {
+    width: 600px; /* Set the width to 600px */
+    background-color: #fff;
+    padding: 30px;
+    border: 2px solid #0072ff; /* Blue border for rectangular box */
+    border-radius: 8px; /* Slight rounding for box corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Heading for Contact Form */
+ .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+ }
+ 
+ /* Form Group Styling */
+ .form-group {
+    margin-bottom: 15px;
+ }
+ 
+ /* Form Input and Textarea Styling */
+ input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding for more space */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    font-size: 16px;
+ }
+ 
+ /* Textarea Resize */
+ textarea {
+    resize: vertical;
+ }
+ 
+ /* Submit Button Styling */
+ .btn {
+    background-color: #0072ff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+ }
+ 
+ /* Button Hover Effect */
+ .btn:hover {
+    background-color: #005bb5;
+ }
+ 
+ /* Responsive Styles for Smaller Screens */
+ @media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .contact-info, .contact-form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+ }
+ /*Contact End here  */
+ 
+/* 3D Effect Container */
+.fee-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+/* Form Container with 3D effect */
+.fee-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.fee-options:hover {
+    transform: rotateY(15deg); /* 3D rotation effect on hover */
+}
+
+/* Card Styling */
+.fee-card {
+    background: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.fee-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="tel"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background: var(--primary);
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--btn-hvr);
+}
+@media (min-width: 1025px) {
+    .fee-section {
+        padding: 30px;
+    }
+
+    .fee-card {
+        width: 48%;
+    }
+
+    .page-header h1 {
+        font-size: 2em;
+    }
+}
+
+#login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    perspective: 1000px;
+   background-color: #0f2027;
+}
+
+/* 3D Wrapper Animation */
+.login-wrapper {
+    transform-style: preserve-3d;
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Login Card */
+.login-card {
+    width: 360px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    color: var(--text-color);
+    transform: rotateY(15deg) rotateX(5deg);
+    transition: var(--transition);
+    background: #8f94fb; 
+}
+
+/* Hover effect to make it more interactive */
+.login-card:hover {
+    transform: rotateY(0) rotateX(0);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.7);
+}
+
+/* Title */
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* Form Inputs */
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+}
+
+.input-group input:focus {
+    box-shadow: 0 0 10px var(--secondary-color);
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.login-btn:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+.forgot{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.forgot a{
+    text-decoration: none;
+    color: #fff;
+}
+.forgot a:hover{
+   color:#e74c3c;
+}
+.register a{
+    text-decoration: none;
+    color: #fff;
+    font-weight:200;
+}
+.register a:hover{
+   color: #c0392b;
+}
+/* Signup */
+#signup-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    perspective: 1000px;
+   background-color: #0f2027;
+}
+
+/* 3D Wrapper Animation */
+
+
+/* signupCard */
+.signup-card {
+    width: 360px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    color: var(--text-color);
+    background: #8f94fb; 
+}
+
+/* Hover effect to make it more interactive */
+.signup-card:hover {
+    transform: rotateY(0) rotateX(0);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.7);
+}
+
+/* Title */
+.signup-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* Form Inputs */
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+}
+
+.input-group input:focus {
+    box-shadow: 0 0 10px var(--secondary-color);
+}
+
+/* Login Button */
+.signup-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: var(--text-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.signup-btn:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+#signup-container .signIn-here p a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.alert{
+    width: 100%;
+    background-color: #e0ffe0;
+    color: green;
+    padding: 20px;
+    text-align: center;
+    border-left: 10px solid green;
+    border-radius: 4px;
+}
+.alert.error{
+    background-color: #ffe0e0;
+    color: red;
+    border-left-color: red;
+}
+/* Floating Animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) rotateY(15deg) rotateX(5deg);
+    }
+    50% {
+        transform: translateY(-20px) rotateY(-15deg) rotateX(-5deg);
+    }
+}
+/* login End Here */
+        /* ================ */
+        /* 3D Global Styles */
+        /* ================ */
+        :root {
+            --primary-color: #e74c3c;
+            --primary-dark: #c0392b;
+            --secondary-color: #3498db;
+            --secondary-light: #2980b9;
+            --accent-color: #2ecc71;
+            --dark-color: #2c3e50;
+            --light-color: #ecf0f1;
+            --shadow-color: rgba(0, 0, 0, 0.2);
+            --border-radius: 12px;
+            --box-shadow-3d: 0 10px 20px rgba(0, 0, 0, 0.2);
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* body {
+            background-color: white;
+            color: var(--dark-color);
+            line-height: 1.6;
+            perspective: 1000px;
+        } */
+
+        /* ============= */
+        /* 3D Buttons */
+        /* ============= */
+        .btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: var(--transition);
+            box-shadow: 0 4px 6px var(--shadow-color);
+            position: relative;
+            transform-style: preserve-3d;
+        }
+
+        .btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-3px) rotateX(10deg);
+            box-shadow: 0 8px 15px var(--shadow-color);
+        }
+
+        .btn:active {
+            transform: translateY(1px);
+        }
+        .btn, .btn-secondary {
+            display: inline-block;
+            padding: 10px 25px;
+            border-radius: 30px;
+            background: var(--primary-color);
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .btn:hover, .btn-secondary:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+        
+/* ============= */
+/* 3D Header */
+/* ============= */
+.header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('image/background.jpg') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 2px 10px rgba(255, 255, 255, 0.5);
+    transform: translateZ(50px);
+    color: #0056b3;
+}
+
+.header p {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    margin-bottom: 30px;
+    max-width: 700px;
+    position: relative;
+    z-index: 1;
+    transform: translateZ(30px);
+}
+
+/* ============= */
+/* 3D Navigation */
+/* ============= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: var(--transition);
+    transform-style: preserve-3d;
+}
+
+.navbar.scrolled {
+    box-shadow: var(--box-shadow-3d);
+    padding: 15px 5%;
+}
+
+.logo img {
+    width: 180px;
+    transition: var(--transition);
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links ul li {
+    list-style: none;
+    position: relative;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color:#005bb5;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: var(--transition);
+    position: relative;
+}
+.nav-links ul li a:hover{
+    color: #000;
+    background: none;
+}
+
+.nav-links ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: var(--transition);
+    transform-origin: left;
+}
+
+.nav-links ul li a:hover::after {
+    width: 100%;
+}
+
+.menu-icon, .close-icon {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    z-index: 1001;
+}
+
+
+        /* ============= */
+        /* 3D Sections */
+        /* ============= */
+        section {
+            padding: 80px 5%;
+            background: var(--light-color);
+            position: relative;
+            text-align: center;
+            padding: auto;
+            font-size: large;
+            color: black;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            margin-bottom: 50px;
+            font-weight: 600;
+            position: relative;
+            color: var(--dark-color);
+            transform: translateZ(40px);
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        /* ============= */
+        /* 3D Course Cards (Portrait) */
+        /* ============= */
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            perspective: 1000px;
+        }
+
+        .course-card {
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow-3d);
+            text-align: center;
+            transition: var(--transition);
+            transform-style: preserve-3d;
+            height: 350px; /* Portrait size */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .course-card:hover {
+            transform: translateY(-10px) rotateX(5deg);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .course-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            transform: translateZ(30px);
+        }
+
+        .course-card p {
+            margin-bottom: 20px;
+            color: var(--dark-color);
+            transform: translateZ(20px);
+        }
+
+        /* ============= */
+        /* 3D Campus (Rectangle) */
+        /* ============= */
+       /* =============================== */
+/* Portrait + 3D Effect: Campus    */
+/* =============================== */
+
+.campus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    perspective: 1000px;
+}
+
+.campus-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    transform-style: preserve-3d;
+    background: #fff;
+}
+
+.campus-image img {
+    width: 100%;
+    height: 450px; /* 📏 Portrait height */
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    transform: rotateY(5deg) rotateX(3deg) translateZ(20px);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* Hover effect: Pop the image out */
+.campus-image:hover img {
+    transform: rotateY(0deg) rotateX(0deg) translateZ(40px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+/* Overlay stays the same */
+.campus-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* Show overlay on hover */
+.campus-image:hover .overlay {
+    opacity: 1;
+}
+
+        /* ============= */
+        /* 3D Facilities (Rectangle) */
+        /* ============= */
+        .facilities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            perspective: 1000px;
+        }
+
+        .facility-card {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow-3d);
+            overflow: hidden;
+            text-align: center;
+            transition: var(--transition);
+            transform-style: preserve-3d;
+        }
+
+        .facility-card:hover {
+            transform: translateY(-10px) rotateY(-5deg);
+        }
+
+        .facility-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .facility-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .facility-content {
+            padding: 20px;
+            transform: translateZ(20px);
+        }
+
+        .facility-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+/* ============= */
+/* Pre-Footer Banner */
+/* ============= */
+.pre-footer {
+    background: url('../image/banner_ggu.jpg') no-repeat center center/cover;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    background-size: cover; /* Ensure the background image is scaled */
+}
+
+.pre-footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay for the text visibility */
+}
+
+.pre-footer-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pre-footer h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: clamp(2rem, 5vw, 3rem); /* Adjust font size responsively */
+}
+
+.pre-footer h2::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 80px;
+    background: var(--accent-color); /* Accent color under the heading */
+    margin: 15px auto;
+}
+
+
+        /* ============= */
+        /* 3D Footer */
+        /* ============= */
+        .footer {
+            background: var(--dark-color);
+            color: white;
+            padding: 60px 5% 30px;
+            position: relative;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-column h3 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--primary-color);
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: #ddd;
+            transition: var(--transition);
+            display: inline-block;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-color);
+            transform: translateX(5px);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 1.2rem;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            color: var(--primary-color);
+            transform: translateY(-3px);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            margin-top: 30px;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        /* ============= */
+        /* Responsive Design */
+        /* ============= */
+        @media (max-width: 992px) {
+            .nav-links {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 300px;
+                height: 100vh;
+                background: var(--dark-color);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: var(--transition);
+                z-index: 1000;
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            .nav-links ul {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .menu-icon, .close-icon {
+                display: block;
+            }
+
+            .close-icon {
+                position: absolute;
+                top: 30px;
+                right: 30px;
+            }
+
+            .course-card {
+                height: auto;
+                padding: 25px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            section {
+                padding: 60px 5%;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+   

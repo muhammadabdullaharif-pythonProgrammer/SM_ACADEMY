@@ -1,0 +1,134 @@
+{% include 'header.html' %}
+        <div class="page-header">
+            <h1>Admission Form</h1>
+            <p>Join SM Academy for quality education and bright future</p>
+        </div>
+    </header>
+
+    <section class="admission-form">
+        <div class="wrapper">
+            <div class="r_form_wrap">
+                <div class="title">
+                    <p>Admission Form</p>
+                </div>
+
+                <form id="admissionForm" enctype="multipart/form-data" method="post">
+                    {% csrf_token %}
+                    <h2>Personal Information</h2>
+                    
+                    <div class="input_wrap">
+                        <label for="fullName">Full Name</label>
+                        <div class="input_item">
+                            <input type="text" id="fullName" name="fullName" required class="input">
+                        </div>
+                    </div>
+                    
+                    <div class="input_wrap">
+                        <label for="fatherName">Father's Name</label>
+                        <div class="input_item">
+                            <input type="text" id="fatherName" name="fatherName" required class="input">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="input_wrap">
+                            <label for="dob">Date of Birth</label>
+                            <div class="input_item">
+                                <input type="date" id="dob" name="dob" required class="input">
+                            </div>
+                        </div>
+                        
+                        <div class="input_wrap">
+                            <label>Gender</label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="gender" value="male" > Male</label>
+                                <label><input type="radio" name="gender" value="female"> Female</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="input_wrap">
+                        <label for="email">Email Address</label>
+                        <div class="input_item">
+                            <input type="email" id="email" name="email" required class="input">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="input_wrap">
+                            <label for="phone">Phone Number</label>
+                            <div class="input_item">
+                                <input type="tel" id="phone" name="phone" required class="input">
+                            </div>
+                        </div>
+                        
+                        <div class="input_wrap">
+                            <label for="whatsapp">WhatsApp Number</label>
+                            <div class="input_item">
+                                <input type="tel" id="whatsapp" name="whatsapp" class="input">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="input_wrap">
+                            <label for="cnic">CNIC/B-Form Number</label>
+                            <div class="input_item">
+                                <input type="text" id="cnic" name="cnic" required class="input">
+                            </div>
+                        </div>
+                        
+                        <div class="input_wrap">
+                            <label for="domicile">Domicile</label>
+                            <div class="input_item">
+                                <input type="text" id="domicile" name="domicile" required class="input">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <h2>Academic Information</h2>
+                    
+                    <div class="form-row">
+                        <div class="input_wrap">
+                            <label for="class">Class Applying For</label>
+                            <div class="input_item">
+                                <select id="class" name="class" required class="input">
+                                    <option value="">Select Class</option>
+                                    <option value="9th">9th Class</option>
+                                    <option value="10th">10th Class</option>
+                                    <option value="1st Year Medical">1st Year Medical</option>
+                                    <option value="1st Year Non-Medical">1st Year Non-Medical</option>
+                                    <option value="1st Year ICS">1st Year ICS</option>
+                                </select>
+
+                                <div class="input_item">
+                            <label for="fees">Student Fees</label>
+                            <div class="input_item">
+                                <input type="number" id="fees" name="fees" required class="input" value="00">
+                            </div>
+                        </div>
+                            </div>
+                                
+
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="input_wrap">
+                        <label for="photo">Student Photo</label>
+                        <div class="input_item">
+                            <input type="file" id="photo" name="photo" accept="image/*" required class="input">
+                        </div>
+                    </div>
+                        
+                    <div class="form-actions">
+                        <button type="submit" class="button">Submit Application</button>
+                        <button type="reset" class="clear_ad">Clear Form</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+ {% include 'footer.html' %}
